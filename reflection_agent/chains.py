@@ -59,7 +59,7 @@ reflection_prompt = ChatPromptTemplate.from_messages([
 
 generation_prompt  = ChatPromptTemplate.from_messages(
     [
-        ("system ",
+        ("system",
         "You are a Twitter techie influencer assistant tasked with writing excellent Twitter posts."
       "Generate the best Twitter posts possible for the user's request."
     "If the user provides critique, respond with a revised version of your previous attempts"),
